@@ -1,0 +1,243 @@
+                * {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                nav {
+                    background-color: rgba(0, 0, 0, 0.689);
+                    padding: 2px;
+                    color: white;
+                }
+                
+                .chat {
+                    color: white;
+                }
+                
+                .page {
+                    width: 1100px;
+                    border: solid black 5px;
+                }
+                
+                nav a {
+                    padding: 10px;
+                }
+                
+                .a1 {
+                    text-decoration: underline;
+                    text-decoration-color: brown;
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a2 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(42, 165, 116);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a3 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(79, 42, 165);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a4 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(165, 165, 42);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a5 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(157, 42, 165);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a6 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(223, 146, 146);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a7 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(79, 114, 124);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a8 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(146, 253, 192);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a9 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(148, 7, 68);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a10 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(216, 124, 235);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a11 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(217, 222, 64);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a12 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(94, 183, 213);
+                    text-decoration-thickness: 2px;
+                }
+                
+                .a13 {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(239, 11, 11);
+                    text-decoration-thickness: 2px;
+                }
+                
+                header {
+                    position: relative;
+                    height: 70px;
+                    border-bottom: 1.5px solid #504a4a;
+                    top: 0px;
+                }
+                
+                .chat2 {
+                    position: absolute;
+                    top: 38px;
+                    right: 20px;
+                }
+                
+                header .logo {
+                    position: absolute;
+                    top: 38px;
+                    right: 50px;
+                    background-color: #a81c24;
+                    color: white;
+                    font-weight: bold;
+                    padding: 4px 12px;
+                    font-size: 20px;
+                    text-decoration: underline;
+                    text-decoration-color: rgba(33, 33, 33, 0.934);
+                    text-decoration-thickness: 8px;
+                }
+                
+                header .logo-icon {
+                    position: absolute;
+                    top: 28px;
+                    width: 50px;
+                    height: 50px;
+                }
+                
+                header .all-link {
+                    position: absolute;
+                    top: 45px;
+                    left: 30px;
+                    color: #000;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+                
+                header .arrow-icon {
+                    position: absolute;
+                    top: 45px;
+                    left: 10px;
+                    width: 20px;
+                    height: 20px;
+                }
+                
+                section {
+                    display: flow-root;
+                    border-bottom: 4px solid #443f3f;
+                    padding: 10px 0;
+                    position: relative;
+                }
+                
+                section .card {
+                    float: right;
+                    width: 16.66%;
+                    padding: 8px;
+                    font-size: 12px;
+                    border-left: 1px solid #eee;
+                }
+                
+                section .card .time {
+                    display: inline-block;
+                    background: #a81c24;
+                    color: white;
+                    padding: 2px 6px;
+                    font-weight: bold;
+                    font-size: 11px;
+                    margin-bottom: 5px;
+                }
+                
+                section .arrow-icon-2 {
+                    position: absolute;
+                    top: 60px;
+                    left: 0px;
+                    width: 50px;
+                    height: 40px;
+                }
+                
+                article {
+                    display: flow-root;
+                    padding: 20px;
+                }
+                
+                article .article-image {
+                    float: left;
+                    width: 45%;
+                }
+                
+                article .article-content {
+                    width: 48%;
+                }
+                
+                article .tag {
+                    background-color: #a81c24;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 13px;
+                    padding: 3px 8px;
+                }
+                
+                article h1,
+                h2 {
+                    font-size: 28px;
+                    font-weight: bold;
+                    line-height: 1;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                }
+                
+                article h1 span {
+                    background-color: hsl(201, 21%, 18%);
+                    color: white;
+                    padding: 2px 6px;
+                }
+                
+                article h2 span {
+                    background-color: hsl(201, 21%, 18%);
+                    color: white;
+                    padding: 2px 6px;
+                }
+                
+                article p {
+                    font-size: 15px;
+                    line-height: 1.5;
+                    color: #333;
+                }
+                
+                article .byline {
+                    clear: both;
+                    padding-top: 15px;
+                    font-size: 12px;
+                    color: #777;
+                }
